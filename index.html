@@ -11,12 +11,14 @@
     <div class="navigation">
       <div class="centered-vertically">
         <a href="#home">Home</a>
-        <a>Menu</a>
-        <a>About</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
       </div>
-      <a href="/"><img src="assets/ogbubble_logo.png"></a>
-      <div class="centered-vertically" style="justify-content: right">
-        <a>Contact</a>
+      <a href="/" class="centered-vertically"><img style="height: 3em;" src="assets/ogbubble_logo.png"></a>
+      <div class="centered-vertically" style="justify-content: right;">
+        <a><img class="social" src="assets/instagram.png"></a>
+        <a><img class="social" src="assets/facebook.png"></a>
+        <a><img class="social" src="assets/twitter.png"></a>
       </div>
     </div>
     <div class="wrapper centered-vertically">
@@ -24,14 +26,62 @@
         <div class="text-block">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Tellus at urna condimentum mattis. Nulla facilisi cras fermentum odio. Egestas diam in arcu cursus euismod.
           <br><br>
-          <button>More</button>
+          <button onclick="window.location.href='#about'">More</button>
         </div>
       </div>
       <img src="assets/tea_banner.png">
     </div>
   </div>
   <div id="menu">
-    
+    <!-- placeholder so the grid stays the same -->
+    <div style="padding: 1em; box-sizing: border-box"><img src="assets/ogbubble_logo.png" style="height: 3em; visibility: hidden"></div>
+    <div class="centered-children" style="flex-direction: column">
+      <div>
+        <div class="header centered-children">Menu</div>
+        <div class="centered-children">
+          <div class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        </div>
+      </div>
+      <div class="menu-items centered-children">
+        <div class="menu-grid">
+          <div class="card" style='background: url("assets/tea1.png"); background-size: cover;'><div class="card-overlay">
+            Your product here
+          </div></div>
+          <div class="card" style='background: url("assets/tea2.png"); background-size: cover;'><div class="card-overlay">
+            Your product here
+          </div></div>
+          <div class="card" style='background: url("assets/tea3.png"); background-size: cover;'><div class="card-overlay">
+            Your product here
+          </div></div>
+          <div class="card" style='background: url("assets/tea1.png"); background-size: cover;'><div class="card-overlay">
+            Your product here
+          </div></div>
+          <div class="card" style='background: url("assets/tea2.png"); background-size: cover;'><div class="card-overlay">
+            Your product here
+          </div></div>
+          <div class="card" style='background: url("assets/tea3.png"); background-size: cover;'><div class="card-overlay">
+            Your product here
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <!-- placeholder so the grid stays the same -->
+    <div style="padding: 1em; box-sizing: border-box"><img src="assets/ogbubble_logo.png" style="height: 3em; visibility: hidden"></div>
+    <div class="centered-children">
+      <div class="about-text">
+        <div class="header centered-children">About</div>
+        <div class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        <br>
+        <div class="header centered-children">Contact</div>
+        <div class="subheader" style="font-size: 1.8em">
+          <span class="section-header">Phone</span><span>xxx-xxx-xxxx</span><br>
+          <span class="section-header">Email</span><span>info@ogbubble.com</span><br>
+          <span class="section-header">Address</span><span>Vía de las Dos Castillas 13</span>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
