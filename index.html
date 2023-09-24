@@ -1,86 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>OG BUBBLE</title>
-  <link rel="stylesheet" href="global.css">
+  <title>OG Bubble</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:wght@500&family=Wix+Madefor+Text:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend Deca">
 </head>
 <body>
-  <div id="home">
+  <div class="content_1">
     <div class="navigation">
-      <div class="centered-vertically">
-        <a href="#home">Home</a>
-        <a href="#menu">Menu</a>
-        <a href="#about">About</a>
+      <div class="navigation-title centered-vertically">
+        <img style="width: 80%; height: 80%; cursor: pointer" src="assets/ogbubblelogo.png" onclick="window.location.href='/'">
       </div>
-      <a href="/" class="centered-vertically"><img style="height: 3em;" src="assets/ogbubble_logo.png"></a>
-      <div class="centered-vertically" style="justify-content: right;">
-        <a><img class="social" src="assets/instagram.png"></a>
-        <a><img class="social" src="assets/facebook.png"></a>
-        <a><img class="social" src="assets/twitter.png"></a>
+      <div></div>
+      <div class="centered-vertically" style="justify-content: right">
+        <a class="navigation-link" style="margin-right: 1em;" href="#about">About</a>
+        <a class="navigation-link" style="margin-right: 1em;" href="#locations">Locations</a>
+        <a class="navigation-link" style="margin-right: 1em;" href="#team">Team</a>
+        <a class="navigation-link" style="margin-right: 1em;" href="https://cglop.es/ogbubbletea/#bubble-tea">Order</a>
       </div>
     </div>
-    <div class="wrapper centered-vertically">
-      <div class="centered-children">
-        <div class="text-block">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Tellus at urna condimentum mattis. Nulla facilisi cras fermentum odio. Egestas diam in arcu cursus euismod.
+    <div style="padding: 1em; box-sizing: border-box; padding-top: 0">
+      <div class="banner">
+        <div class="banner-text">
+          <div class="banner-header" style="color: var(--accent-heavy)">¡Bienvenidos a <span style="color: var(--background)">OG Bubble!</span></div>
+          <div class="banner-subheader" style="font-style: italic; color: var(--accent-heavy)">Funtastic tea</div>
+          <br>
+          <div class="banner-blurb">
+            ¡Hola! ¡Bienvenidos a nuestra nueva cafetería especializada en bubble tea, la primera en Pozuelo de Alarcón! En OG Bubble, nos enorgullece ser un lugar apto para toda la familia. Ya seas joven o mayor, ¡te invitamos a disfrutar de la amplia carta que ofrecemos, incluyendo tanto cafés como nuestros bubble tea! Ven con tus seres queridos y comparte momentos divertidos mientras saboreas nuestras deliciosas bebidas. ¡Te esperamos con los brazos abiertos!
+          </div>
           <br><br>
-          <button onclick="window.location.href='#about'">More</button>
+          <button>VIEW MENU</button>
         </div>
-      </div>
-      <img src="assets/tea_banner.png">
-    </div>
-  </div>
-  <div id="menu">
-    <!-- placeholder so the grid stays the same -->
-    <div style="padding: 1em; box-sizing: border-box"><img src="assets/ogbubble_logo.png" style="height: 3em; visibility: hidden"></div>
-    <div class="centered-children" style="flex-direction: column">
-      <div>
-        <div class="header centered-children">Menu</div>
-        <div class="centered-children">
-          <div class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-        </div>
-      </div>
-      <div class="menu-items centered-children">
-        <div class="menu-grid">
-          <div class="card" style='background: url("assets/tea1.png"); background-size: cover;'><div class="card-overlay">
-            Your product here
-          </div></div>
-          <div class="card" style='background: url("assets/tea2.png"); background-size: cover;'><div class="card-overlay">
-            Your product here
-          </div></div>
-          <div class="card" style='background: url("assets/tea3.png"); background-size: cover;'><div class="card-overlay">
-            Your product here
-          </div></div>
-          <div class="card" style='background: url("assets/tea1.png"); background-size: cover;'><div class="card-overlay">
-            Your product here
-          </div></div>
-          <div class="card" style='background: url("assets/tea2.png"); background-size: cover;'><div class="card-overlay">
-            Your product here
-          </div></div>
-          <div class="card" style='background: url("assets/tea3.png"); background-size: cover;'><div class="card-overlay">
-            Your product here
-          </div></div>
-        </div>
+        <!--<div class="banner-splash">
+          <img class="banner-image" src="assets/ogbubbleshop.png">
+        </div>-->
+        <div class="banner-image-container"><img class="banner-image" src="assets/ogbubbleshop.png"></div>
       </div>
     </div>
   </div>
-  <div id="about">
-    <!-- placeholder so the grid stays the same -->
-    <div style="padding: 1em; box-sizing: border-box"><img src="assets/ogbubble_logo.png" style="height: 3em; visibility: hidden"></div>
-    <div class="centered-children">
-      <div class="about-text">
-        <div class="header centered-children">About</div>
-        <div class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-        <br>
-        <div class="header centered-children">Contact</div>
-        <div class="subheader" style="font-size: 1.8em">
-          <span class="section-header">Phone</span><span>xxx-xxx-xxxx</span><br>
-          <span class="section-header">Email</span><span>info@ogbubble.com</span><br>
-          <span class="section-header">Address</span><span>Vía de las Dos Castillas 13</span>
+  <div class="content_2" id="about">
+    <div class="next-button centered-children" onclick="window.location.href='#story'"><img src="assets/icon_down.png"></div>
+    <div class="text-container">
+      <div class="banner-header" style="color: var(--accent-heavy)">Nuestra Misión </div>
+      <div class="banner-subheader" style="color: var(--accent); font-size: 1.8em">
+        Aquí en OG Bubble, nos apasiona crear bebidas deliciosas y refrescantes. Desde los clásicos sabores de té y café hasta las combinaciones más atrevidas, tenemos opciones para todo tipo de paladares. Nuestra misión es brindarles una experiencia única, llena de sabores sorprendentes y una presentación increíble. ¡Ven y sumérgete en una nuevo viaje lleno de matices de otras culturas, desde Japón hasta Tailandia!
+        <br><br>
+        <button style="font-size: 0.8em" onclick="window.location.href='#story'">Our Story</button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="assets/ogbubble_main.png">
+    </div>
+  </div>
+  <div class="content_2" id="story"> <!-- content_3 -->
+    <div class="next-button centered-children" onclick="window.location.href='#locations'"><img src="assets/icon_down.png"></div>
+    <div class="image-container image-story">
+      <img src="assets/story_main.png">
+    </div>
+    <div class="text-container" style="width: 60%">
+      <div class="banner-header" style="color: var(--accent-heavy)">Nuestra historia</div>
+      <div class="banner-subheader" style="color: var(--accent); font-size: 1.8em;">
+        Somos una familia de amantes del Bubble Tea. Para nosostros (mi marido, mi hijo y yo) el Bubble Tea es algo divertido y sabroso que podemos disfrutar juntos. Estamos muy contentos de poder abrir una cafetería tan especial en Pozuelo. Estamos encantados de que la gente de esta localidad disfrute de estas bebidas.
+      </div>
+      <div style="margin-bottom: 0.5em"></div>
+      <button onclick="window.location.href='#locations'">Locations</button>
+    </div>
+  </div>
+  <div class="content_2" id="locations"> <!-- content_4 -->
+    <div class="next-button centered-children" onclick="window.location.href='#team'"><img src="assets/icon_down.png"></div>
+    <div class="text-container" style="width: 70%">
+      <div class="banner-header" style="color: var(--accent-heavy)">LOCATIONS</div>
+      <div class="banner-subheader" style="color: var(--accent); font-size: 1.8em;">
+        <!-- <div style="font-size: 1em">OG BUBBLE</div> -->
+        <div class="location-container">
+          <div>
+            Centro comercial la estación, <br>
+            C. de Antonio Díaz, 10, <br>
+            28224 Pozuelo de Alarcón, Madrid
+            <div style="margin-bottom: 0.5em;"></div>
+            (34) 913263062
+            <div style="margin-bottom: 0.8em;"></div>
+            <button style="font-size: 0.8em" onclick='window.open(`https://www.google.com/maps/place/C.+de+Antonio+D%C3%ADaz,+10,+28224+Pozuelo+de+Alarc%C3%B3n,+Madrid,+Spain/@40.4474697,-3.8023359,18z/data=!4m6!3m5!1s0xd41865ee18255af:0xbcf3ad04472f7f19!8m2!3d40.4475865!4d-3.8009745!16s%2Fg%2F11ckqmp17h?entry=ttu`, `_blank`)'">COME SAY HI!</button>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1805.3686416014818!2d-3.8023359310754357!3d40.4474697417011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41865ee18255af%3A0xbcf3ad04472f7f19!2sC.%20de%20Antonio%20D%C3%ADaz%2C%2010%2C%2028224%20Pozuelo%20de%20Alarc%C3%B3n%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1692474375463!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="content_2" id="team"> <!-- content 5 -->
+    <div class="next-button centered-children" onclick="window.location.href='#team2'"><img src="assets/icon_down.png"></div>
+    <div class="text-container" style="width: 90%">
+      <div class="teams-container">
+        <img src="assets/ogteam.jpg">
+        <div style="width: 30em">
+          <div class="banner-header" style="color: var(--accent-heavy)">Nuestro equipo</div>
+          <div class="banner-subheader" style="color: var(--accent); font-size: 1.8em;">
+            <!-- <div style="font-size: 1em">OG BUBBLE</div> -->
+            En nuestra tienda, contamos con un equipo joven y creativo que colabora con ideas frescas para hacer de vuestra experiencia algo inolvidable. Cada uno tiene sus propios talentos, pero al final el objetivo común es innovar y hacer lo posible para mejorar nuestro negocio cada día.
+          </div>
+        </div>
+        <img src="assets/OG-28.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="content_2" id="team2"> <!-- content 6 -->
+    <div class="next-button centered-children" onclick="window.location.href='#values'"><img src="assets/icon_down.png"></div>
+    <div class="text-container" style="width: 85%">
+      <div class="team-images-container">
+        <img src="/assets/OG-1.jpg">
+        <img src="/assets/OG-22.jpg">
+        <img src="/assets/OG-25.jpg">
+        <img src="/assets/OG-90.jpg">
+        <img src="/assets/OG-95.jpg">
+        <img src="/assets/OG-99.jpg">
+        <img src="/assets/OG-102.jpg">
+        <img src="/assets/OG-59.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="content_2" id="values"> <!-- content 7 -->
+    <div class="text-container" style="width: 70%">
+      <div class="banner-header" style="color: var(--accent-heavy)">OUR VALUES</div>
+      <br>
+      <div class="values-grid">
+        <div class="value centered-vertically">
+          <div class="value-number">1</div>
+          <div class="value-title">Saludable</div>
+          <div style="width: 80%">ingredientes nutritivos de calidad</div>
+        </div>
+        <div class="value centered-vertically">
+          <div class="value-number">4</div>
+          <div class="value-title">Innovador</div>
+          <div style="width: 80%">Bebidas creativas inspiradas en distintas culturas</div>
+        </div>
+        <div class="value centered-vertically">
+          <div class="value-number">2</div>
+          <div class="value-title">Cercano</div>
+          <div style="width: 80%">diversas formas de pedido y una atención al cliente ejemplar</div>
+        </div>
+        <div class="value centered-vertically">
+          <div class="value-number">5</div>
+          <div class="value-title">Elegante</div>
+          <div style="width: 80%">decoración elegante y una experiencia con clase</div>
+        </div>
+        <div class="value centered-vertically">
+          <div class="value-number">3</div>
+          <div class="value-title">Feliz</div>
+          <div style="width: 80%">empleados comprometidos y un ambiente positivo</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div style="margin-right: 1em; color: var(--background)">OG BUBBLE</div>
+    <div class="centered-vertically">
+      <img src="assets/icon_mail.png"><div style="user-select: text">info@ogbubble.com</div>
+    </div>
+    <div class="centered-vertically">
+      <img src="assets/icon_phone.png"><div style="user-select: text">(34) 913263062</div>
+    </div>
+    <div class="centered-vertically">
+      <a class="centered-vertically"><img class="social" src="assets/icon_instagram.png"></a>
     </div>
   </div>
 </body>
